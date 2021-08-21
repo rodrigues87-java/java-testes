@@ -5,15 +5,17 @@ public class Triangulo{
     private double altura;
     private double area;
 
-    public Triangulo(double base, double altura) throws Exception {
+    public Triangulo(double base, double altura) {
         this.base = base;
         this.altura = altura;
 
         if(this.base <=0 || this.altura <= 0){
-            throw new Exception("Não sao permitidos valores negativos");
+            throw new RuntimeException("Não sao permitidos valores negativos");
         }
         calcularArea();
     }
+
+
 
     public void calcularArea(){
         this.area = this.altura * this.base / 2;

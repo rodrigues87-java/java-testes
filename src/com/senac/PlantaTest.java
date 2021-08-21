@@ -9,7 +9,7 @@ class PlantaTest {
     @Test
     void gerarPlanta() throws Exception {
 
-        Planta planta = new Planta(2,2);
+        Planta planta = new Planta(2,3);
 
         System.out.println("fdsfsdfsdf");
     }
