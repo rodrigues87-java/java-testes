@@ -1,4 +1,4 @@
-package com.senac;
+package com.senac.model;
 
 public class Quadrado {
     private double base;

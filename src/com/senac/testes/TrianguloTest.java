@@ -1,8 +1,7 @@
-package com.senac;
+package com.senac.testes;
 
+import com.senac.model.Triangulo;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class TrianguloTest {
 

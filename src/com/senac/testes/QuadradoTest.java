@@ -1,5 +1,6 @@
-package com.senac;
+package com.senac.testes;
 
+import com.senac.model.Quadrado;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
